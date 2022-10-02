@@ -8,6 +8,7 @@ import { FormularioComponent } from './component/formulario/formulario.component
 import { FormLoginComponent } from './component/form-login/form-login.component';
 import { ReclamosComponent } from './component/reclamos/reclamos.component';
 import { HomeComponent } from './component/home/home.component';
+import { HomeOperarioComponent } from './component/home-operario/home-operario.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeComponent } from './component/home/home.component';
     FormLoginComponent,
     ReclamosComponent,
     HomeComponent,
+    HomeOperarioComponent,
     
   ],
   imports: [
